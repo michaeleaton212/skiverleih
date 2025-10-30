@@ -1,0 +1,144 @@
+{
+  "customers": [
+    {
+      "id": "C1",
+      "name": "Max Muster",
+      "age": 22,
+      "email": "max@example.com"
+    },
+    {
+      "id": "C2",
+      "name": "Michael",
+      "age": 16,
+      "email": "michael.eaton@gmail.com"
+    },
+    {
+      "id": "C3",
+      "name": "Michael",
+      "age": 16,
+      "email": "michael.eaton212@gmailcom"
+    },
+    {
+      "id": "C4",
+      "name": "Michael",
+      "age": 16,
+      "email": "michael.eaton212@gmail.com"
+    }
+  ],
+  "skis": [
+    {
+      "id": "S1",
+      "type": "CARVING",
+      "brand": "Atomic",
+      "lengthCm": 170,
+      "dailyPrice": 35.0,
+      "available": true
+    },
+    {
+      "id": "S2",
+      "type": "RACE",
+      "brand": "Head",
+      "lengthCm": 175,
+      "dailyPrice": 49.0,
+      "available": true
+    },
+    {
+      "id": "S3",
+      "type": "FREESTYLE",
+      "brand": "Salomon",
+      "lengthCm": 168,
+      "dailyPrice": 39.0,
+      "available": true
+    },
+    {
+      "id": "S4",
+      "type": "FREESTYLE",
+      "brand": "Faction",
+      "lengthCm": 168,
+      "dailyPrice": 39.0,
+      "available": false
+    }
+  ],
+  "rentals": [
+    {
+      "id": "R1",
+      "customerId": "C1",
+      "skiId": "S1",
+      "days": 3,
+      "totalPrice": 105.0,
+      "status": "RETURNED"
+    },
+    {
+      "id": "R2",
+      "customerId": "C1",
+      "skiId": "S1",
+      "days": 3,
+      "totalPrice": 105.0,
+      "status": "RETURNED"
+    },
+    {
+      "id": "R3",
+      "customerId": "C1",
+      "skiId": "S1",
+      "days": 3,
+      "totalPrice": 105.0,
+      "status": "RETURNED"
+    },
+    {
+      "id": "R4",
+      "customerId": "C1",
+      "skiId": "S1",
+      "days": 3,
+      "totalPrice": 105.0,
+      "status": "RETURNED"
+    },
+    {
+      "id": "R5",
+      "customerId": "C1",
+      "skiId": "S1",
+      "days": 3,
+      "totalPrice": 105.0,
+      "status": "RETURNED"
+    },
+    {
+      "id": "R6",
+      "customerId": "C1",
+      "skiId": "S1",
+      "days": 3,
+      "totalPrice": 105.0,
+      "status": "RETURNED"
+    },
+    {
+      "id": "R7",
+      "customerId": "C1",
+      "skiId": "S1",
+      "days": 3,
+      "totalPrice": 105.0,
+      "status": "RETURNED"
+    },
+    {
+      "id": "R8",
+      "customerId": "C1",
+      "skiId": "S1",
+      "days": 3,
+      "totalPrice": 105.0,
+      "status": "RETURNED"
+    },
+    {
+      "id": "R9",
+      "customerId": "C1",
+      "skiId": "S1",
+      "days": 3,
+      "totalPrice": 105.0,
+      "status": "RETURNED"
+    },
+    {
+      "id": "R10",
+      "customerId": "C2",
+      "skiId": "S4",
+      "days": 1,
+      "totalPrice": 40.95,
+      "status": "OPEN"
+    }
+  ]
+}

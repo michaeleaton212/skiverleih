@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Purpose:
+- IntelliJ IDEA project configuration
+Notes:
+- Comments are intent-only; no behavior changes
+- Clean Code: concise comments, structure over duplication
+-->
+<project version="4">
+  <!-- Auto-import behavior; selective reload avoids full project churn -->
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+
+  <!-- Tracks local change lists and conflict highlighting preferences -->
+  <component name="ChangeListManager">
+    <list default="true" id="ebc6f6c1-ab1d-4657-b043-c6ae0303e3aa" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+
+  <!-- Recently used file templates to speed up class creation -->
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+
+  <!-- Git root remembered for VCS operations -->
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+
+  <!-- Problems/inspections tool window state -->
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+
+  <!-- UI color association for the project frame -->
+  <component name="ProjectColorInfo">{
+    &quot;associatedIndex&quot;: 0
+    }</component>
+
+  <!-- Stable project UUID used internally by IDE -->
+  <component name="ProjectId" id="33Vmf3M68ZfkX0SEc9AJapKbQgH" />
+
+  <!-- Project view visual prefs (package flattening, libraries) -->
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+
+  <!-- IDE-wide persisted properties (kept as JSON in CDATA) -->
+  <!-- NOTE: Content inside CDATA is IDE-managed; not edited -->
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/micha/Desktop/skiverleih",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.tools",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+
+  <!-- Recently used move destinations (helps refactoring UX) -->
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\micha\Desktop\skiverleih\skiverleih\skiverleih\.idea\src\main\java\ch\tbz" />
+    </key>
+  </component>
+
+  <!-- Shared indexes attached to speed up indexing/startup -->
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26574.91" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26574.91" />
+      </set>
+    </attachedChunks>
+  </component>
+
+  <!-- Spell checker configuration (uses default dictionary) -->
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+
+  <!-- Built-in task tracking: session times and default task -->
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ebc6f6c1-ab1d-4657-b043-c6ae0303e3aa" name="Changes" comment="" />
+      <created>1759410714292</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759410714292</updated>
+      <!-- Work log entries: epoch millis + duration -->
+      <workItem from="1759410715704" duration="2493000" />
+      <workItem from="1760793639335" duration="1834000" />
+      <workItem from="1760796235023" duration="30000" />
+      <workItem from="1760796283332" duration="1038000" />
+      <workItem from="1760797339121" duration="134000" />
+      <workItem from="1760797487092" duration="555000" />
+      <workItem from="1760798053542" duration="348000" />
+    </task>
+    <servers />
+  </component>
+
+  <!-- Tracks generated TS files; versioning of the cache -->
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+
+  <!-- VCS log tabs layout/state (MAIN tab persisted) -->
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

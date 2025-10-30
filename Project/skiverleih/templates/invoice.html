@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>Rechnung {{rentalId}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="margin:0;padding:0;background:#0f172a;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#0f172a;">
+    <tr>
+        <td align="center" style="padding:32px 16px;">
+            <table role="presentation" width="640" cellpadding="0" cellspacing="0" style="width:100%;max-width:640px;background:#1f2937;border-radius:16px;overflow:hidden;border:1px solid #374151;">
+                <tr>
+                    <td style="background:#374151;padding:18px 24px;">
+                        <table role="presentation" width="100%">
+                            <tr>
+                                <td style="font:700 16px/1.2 Arial,Helvetica,sans-serif;color:#e5e7eb;letter-spacing:.3px;">Skiverleih</td>
+                                <td align="right" style="font:700 16px/1.2 Arial,Helvetica,sans-serif;color:#e5e7eb;">Rechnung · {{rentalId}}</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="padding:28px 24px 8px 24px;">
+                        <div style="font:700 22px/1.35 Arial,Helvetica,sans-serif;color:#f3f4f6;margin:0 0 6px 0;">
+                            Vielen Dank für Ihren Verleih, {{customerName}}!
+                        </div>
+                        <div style="font:400 13px/1.7 Arial,Helvetica,sans-serif;color:#cbd5e1;margin:0;">
+                            Datum: {{date}}
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="padding:0 24px 20px 24px;">
+                        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:separate;border-spacing:0;">
+                            <tr>
+                                <td style="background:#111827;border:1px solid #374151;border-radius:12px;padding:16px 16px;">
+                                    <table role="presentation" width="100%">
+                                        <tr>
+                                            <td style="font:600 13px Arial;color:#cbd5e1;">Gesamtsumme</td>
+                                            <td align="right" style="font:700 20px Arial;color:#f9fafb;">CHF {{price}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font:600 13px Arial;color:#cbd5e1;padding-top:6px;">Status</td>
+                                            <td align="right" style="font:600 12px Arial;color:#e5e7eb;background:#374151;border-radius:9999px;padding:6px 10px;display:inline-block;">OPEN</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="padding:0 24px 8px 24px;">
+                        <div style="font:700 14px Arial,Helvetica,sans-serif;color:#f3f4f6;margin:0 0 6px 0;">Details</div>
+                        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;border-top:1px solid #374151;">
+                            <tr>
+                                <td style="padding:12px 0;border-bottom:1px solid #374151;font:400 14px Arial;color:#cbd5e1;">Rental-ID</td>
+                                <td align="right" style="padding:12px 0;border-bottom:1px solid #374151;font:400 14px Arial;color:#f9fafb;">{{rentalId}}</td>
+                            </tr>
+                            <tr>
+                                <td style="padding:12px 0;border-bottom:1px solid #374151;font:400 14px Arial;color:#cbd5e1;">Ski</td>
+                                <td align="right" style="padding:12px 0;border-bottom:1px solid #374151;font:400 14px Arial;color:#f9fafb;">
+                                    {{skiBrand}} · {{skiType}} · {{skiLength}} cm
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding:12px 0;border-bottom:1px solid #374151;font:400 14px Arial;color:#cbd5e1;">Dauer</td>
+                                <td align="right" style="padding:12px 0;border-bottom:1px solid #374151;font:400 14px Arial;color:#f9fafb;">
+                                    {{days}} Tage
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="padding:6px 24px 24px 24px;">
+                        <div style="font:400 12px/1.7 Arial,Helvetica,sans-serif;color:#94a3b8;margin:0;">
+                            Bei Fragen antworten Sie einfach auf diese E-Mail. Wir helfen gerne weiter.
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="background:#111827;padding:16px 24px;border-top:1px solid #374151;">
+                        <div style="font:400 11px/1.6 Arial,Helvetica,sans-serif;color:#94a3b8;margin:0;">
+                            Skiverleih · Beispielstrasse 1 · 8000 Zürich<br>
+                            Diese E-Mail wurde automatisch generiert.
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div style="height:24px;line-height:24px;">&nbsp;</div>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
