@@ -47,6 +47,10 @@ Bei **Statusänderungen** (Miete oder Rückgabe) werden automatische **E-Mail-Be
 
 ---
 
-## UML Klassendiagramm (Basis)
+## UML Klassendiagramm
 
-![Klassendiagramm](https://raw.githubusercontent.com/michaeleaton212/skiverleih/main/skiverleih/skiverleih.md/classdiagram.png)
+### Basis
+![Klassendiagramm (Basis)](classdiagram_before.png)
+
+### Stand jetzt
+![Klassendiagramm (Stand jetzt)](now.png)
