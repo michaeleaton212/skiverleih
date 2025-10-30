@@ -1,5 +1,9 @@
 package skirental;
 
+// Pattern: Strategy (concrete + decorator-like) - `PromoPricing` is another concrete strategy that
+// reuses `DefaultPricing` and applies a discount. It's effectively a simple decorator over the default algorithm.
+// Reason: Keeps promo logic separate and composable without modifying `DefaultPricing` or the service layer.
+
 // Pricing with a percentage discount applied to DefaultPricing.
 // CleanCode: validate inputs, delegate to DefaultPricing.
 public class PromoPricing implements PricingStrategy {

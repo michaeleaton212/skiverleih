@@ -3,6 +3,9 @@ package skirental;
 import java.util.Locale;
 import java.util.Scanner;
 
+// Pattern: Thin UI / Client - `Main` is a thin command-line UI that delegates business logic to `RentalService`.
+// Reason: Keeps UI concerns separate from business logic; Main handles parsing and user interaction only.
+
 // CLI entrypoint for the ski rental app.
 // CleanCode: thin UI layer delegating to service; small helper methods for parsing and handling commands.
 public class Main {
