@@ -1,7 +1,5 @@
 package skirental;
 
-// Pattern: Factory Method (static factory) - `Ski.of(...)` is a named constructor used instead of public constructors.
-// Reason: Provides a clearer creation API and sets default availability to true in a single place.
 
 // Domain object for a ski item.
 // CleanCode: factory method, validate on creation, small getters.

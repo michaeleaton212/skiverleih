@@ -47,6 +47,15 @@ Bei **Statusänderungen** (Miete oder Rückgabe) werden automatische **E-Mail-Be
 
 ---
 
-## UML Klassendiagramm (Basis)
+## UML Klassendiagramm
 
-![Klassendiagramm](https://raw.githubusercontent.com/michaeleaton212/skiverleih/main/skiverleih/skiverleih.md/classdiagram.png)
+### Basis
+![Klassendiagramm (Basis)](classdiagram_before.png)
+
+### Stand jetzt
+![Klassendiagramm (Stand jetzt)](now.png)
+
+## Programm starten
+
+```bash
+java -cp "out;lib/gson-2.11.0.jar;lib/commons-email-1.5.jar;lib/javax.mail-1.6.2.jar;lib/activation-1.1.1.jar" skirental.Main

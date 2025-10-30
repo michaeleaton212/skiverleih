@@ -1,8 +1,6 @@
 package skirental;
 import java.util.*;
 
-// Pattern: Repository - `Store<T>` acts as a simple in-memory repository for domain entities.
-// Reason: Provides basic CRUD-ish operations behind a small API so higher-level code doesn't depend on Map details.
 
 // Simple in-memory keyed store for Identifiable objects.
 // CleanCode: small API, clear errors, immutable list copy on all().
